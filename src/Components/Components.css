@@ -1,0 +1,56 @@
+.logo{
+    height: 80px;
+}
+
+.navbar{
+    background-color: #112B2E;
+}
+
+.link{
+    color: #fff;
+}
+
+header, footer{
+    /* position: absolute; */
+    width: 100%;
+    background-color: #112B2E;
+    padding: 10px;
+}
+
+.menu-topo{
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color:  #9a6c48;
+}
+
+.item{
+    flex-grow: 1;
+}
+
+.enlaces{
+    display: flex;
+    flex-grow: 2;
+}
+
+
+p{
+    text-align: center;
+    font-size: 46px;
+}
+
+
+
