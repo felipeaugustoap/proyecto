@@ -4,7 +4,7 @@ const NuestrasObras = () => {
 
     return (
         <div>
-            <p>Hola, soy la pagina de Nuestras Obras 😀</p>
+            <p className="pagina">Hola, soy la pagina de Nuestras Obras 😀</p>
         </div>
     )
 }

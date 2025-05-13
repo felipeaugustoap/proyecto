@@ -4,7 +4,7 @@ const QuienesSomos = () => {
 
     return (
         <div>
-            <p>Hola, soy la pagina de Quienes Somos 😀</p>
+            <p className="pagina">Hola, soy la pagina de Quienes Somos 😀</p>
         </div>
     )
 }

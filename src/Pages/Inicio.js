@@ -7,7 +7,7 @@ const Inicio = () => {
 
     return (
         <div>
-            <p>Hola, soy la pagina de Inicio 😀</p>
+            <p className="pagina">Hola, soy la pagina de Inicio 😀</p>
         </div>
     )
 }
