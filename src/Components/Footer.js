@@ -96,9 +96,9 @@ const Footer = () => {
                 </ul>
             </div>
         </footer> */}
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
                 <div class="footer">
-                    <div class="col-md-4 d-flex align-items-center">
+                    <div class="col-md-7 d-flex align-items-center justify-content-between">
                         <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
                             <img className="logo" src={logo}/>
                         </a>
