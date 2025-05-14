@@ -14,20 +14,25 @@ import Servicios from "./Pages/Servicios"
 
 function App() {
   return (
-    <div className="container-fluid">
+
+    <>
       <Header />
-      <main>
-            <Routes>
-                <Route path="/" element={<Inicio/> } />
-                <Route path="/quienes-somos" element={<QuienesSomos />} />
-                <Route path="/nuestras-obras" element={<NuestrasObras/>} />
-                <Route path="/servicios" element={<Servicios />} />
-                <Route path="/contacto" element={<Contacto/>} />
-        </Routes>
+      <div >
         
+        <main className="container-fluid">
+          <Routes>
+              <Route path="/" element={<Inicio/> } />
+              <Route path="/quienes-somos" element={<QuienesSomos />} />
+              <Route path="/nuestras-obras" element={<NuestrasObras/>} />
+              <Route path="/servicios" element={<Servicios />} />
+              <Route path="/contacto" element={<Contacto/>} />
+          </Routes>
+          
         </main> 
+      </div>
       <Footer/>
-    </div>
+    
+    </>
   );
 }
 
