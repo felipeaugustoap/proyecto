@@ -12,7 +12,7 @@ const Inicio = () => {
         <div className="row main">
             <Banner/>
             <div className="row">
-                <p>?Necesitas un presupuesto?</p>
+                <p>¿Necesitas un presupuesto?</p>
                 <NavLink to="/contacto" className="col-2 boton">Contacta con nosotros</NavLink>
             </div>
             <div className="row">
