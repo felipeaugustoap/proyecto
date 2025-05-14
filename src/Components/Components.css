@@ -6,16 +6,16 @@
     background-color: #112B2E;
 }
 
-.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28154, 108, 72, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
+
 
 .active{
     color:  #9a6c48
 }
 
 
-
+.slide-img{
+    width: 900px;
+}
 
 .link{
     color: #fff;
@@ -103,3 +103,24 @@ span{
     color: #fff;
 }
 
+/* .slide-img-1{
+    background-image: url("./images/casas/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+} */
+
+/* .banner{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+} */
+
+
+.img-banner{
+    height: 400px;
+}
+
+.main{
+    background-color: #fff;
+}
