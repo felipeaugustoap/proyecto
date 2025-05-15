@@ -23,7 +23,7 @@ const Banner = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active img-banner">
-                    <img src={img1} class="d-block w-100 mx-auto rounded"/>
+                    <img src={img1} class="img-banner"/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>

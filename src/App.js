@@ -11,15 +11,20 @@ import Inicio from "./Pages/Inicio";
 import NuestrasObras from "./Pages/NuestrasObras"
 import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
+import UncontrolledExample from './Components/Carousel';
+
 
 function App() {
   return (
 
     <>
       <Header />
+      
+    
       <div >
         
         <main className="container-fluid">
+          
           <Routes>
               <Route path="/" element={<Inicio/> } />
               <Route path="/quienes-somos" element={<QuienesSomos />} />
@@ -30,6 +35,7 @@ function App() {
           
         </main> 
       </div>
+      {/* <Carousel/> */}
       <Footer/>
     
     </>

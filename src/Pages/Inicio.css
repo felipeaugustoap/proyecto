@@ -23,10 +23,18 @@ a{
 }
 
 .logo-icone{
-    display: flex;
     height: 200px;
-    margin-top: 20%;
+    margin: 0 auto;
+    
 }
+
+
+.img-logo-icone{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
 
 .boton{
     width: 150px;
@@ -34,9 +42,60 @@ a{
 
 .boton-nosotros{
     width: 150px;
+    margin: 0 auto;
 }
 
 .presupuesto{
-    background-color:var(--color3) ;
-    border-radius: 15px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--color3);
+    
+}
+
+.contacta-nosotros{
+    padding: 10px;
+    width: 150px;
+}
+
+.contenido{
+    padding: 40px;
+}
+
+.main{
+    margin: 0 auto;
+}
+
+.banner{
+    height: 450px;
+}
+
+.img-banner{
+    height: 450px;
+}
+
+.container-ult-obras{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.img-ultimas-obras{
+    width: 300px;
+}
+
+.container-ult-obras p{
+    text-align: center;
+    vertical-align: middle;
 }

@@ -12,6 +12,14 @@ paleta color
 }
 
 
+.img-banner{
+    width: 100%;
+}
+
+button .carousel-control-prev {
+    left: -5;
+}
+
 
 
 
