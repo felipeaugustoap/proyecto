@@ -2,8 +2,8 @@ import style from "./QuienesSomos.module.css"
 import imgOficina from "../Components/images/escritorio.jpg" 
 import mapaEspaña from "../Components/images/espana.png"
 
-import iconeTrabajador from "../Components/icons/builder.png"
-import iconeExperiencia from "../Components/icons/calendar_2693507.png"
+import iconeTrabajador from "../Components/icons/construction.png"
+import iconeExperiencia from "../Components/icons/calendar.png"
 import iconeCalidad from "../Components/icons/validity_7180143.png"
 import iconePuntualidad from "../Components/icons/time_12170554.png"
 
@@ -38,13 +38,13 @@ const QuienesSomos = () => {
                         <h1 className={style.titulo}>Conócenos</h1>
                     </div>
                     <div className={style.row}>
-                        <p className={style.parrafo}>Pellentesque eget commodo neque, pellentesque placerat dolor. Quisque sit amet eros lectus. Nulla facilisi. Nulla volutpat purus et auctor eleifend. Nunc rutrum mollis interdum. Quisque risus lorem, porttitor nec risus sit amet, bibendum ullamcorper ante. Nunc accumsan faucibus ante, a tincidunt neque. Aenean mattis fermentum massa, sit amet pellentesque lorem aliquam vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec leo elit. Vivamus volutpat, felis a egestas eleifend, mauris urna eleifend neque, et faucibus nulla nisl et erat. Maecenas varius imperdiet justo, id lacinia felis consectetur id. Vivamus ut augue at lorem ultricies tincidunt.</p>
-                        <span className={style.oficina}></span>
+                        <p className={`${style.parrafo} col-6`}>Pellentesque eget commodo neque, pellentesque placerat dolor. Quisque sit amet eros lectus. Nulla facilisi. Nulla volutpat purus et auctor eleifend. Nunc rutrum mollis interdum. Quisque risus lorem, porttitor nec risus sit amet, bibendum ullamcorper ante. Nunc accumsan faucibus ante, a tincidunt neque. Aenean mattis fermentum massa, sit amet pellentesque lorem aliquam vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec leo elit. Vivamus volutpat, felis a egestas eleifend, mauris urna eleifend neque, et faucibus nulla nisl et erat. Maecenas varius imperdiet justo, id lacinia felis consectetur id. Vivamus ut augue at lorem ultricies tincidunt.</p>
+                        <span className={`${style.oficina} col-4`}></span>
                     </div>
                 </div>
                 <div className={`${style.row} ${style.rowIcone}`}>
                     {calidades.map(calidad => (
-                        <div>
+                        <div className={style.containerIcon}>
                             <img src={calidad.icone} className={style.icone} />
                             <p>{calidad.descripcion}</p>
                         </div>
@@ -52,12 +52,10 @@ const QuienesSomos = () => {
 
                 </div>
                 <div className={`${style.row}`}>
-                    <div className={style.containerMapa}>
+                    <div className={`${style.containerMapa} col-5`}>
                         <img src={mapaEspaña} className={style.mapa}/>
-                        
-                        {/* <span className={style.mapa}></span> */}
                     </div>
-                    <div>
+                    <div className="col-6">
                         <p className={style.parrafo}>Nos encontramos en todo territorio Español.</p>
                         <p className={style.parrafo}>Nuestro objetivo es garantizar y mantener como denominador común los altos estándares de fiabilidad que nos caracterizan, así como un riguroso cumplimiento de plazos y presupuestos pactados. Nos avala el trabajo bien hecho.</p>
                     </div>

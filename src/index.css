@@ -1,3 +1,14 @@
+:root{
+  --font1: 'TitilliumWeb-SemiBold';
+  --font2: 'TitilliumWeb-Regular';
+  --font3: 'TitilliumWeb-Bold';
+  --font4: 'TitilliumWeb-Black';
+  --font5: 'CircularStd-Medium';
+  --font6: 'CircularStd-Book';
+  --font7: 'CircularStd-Bold';
+  --font8: 'CircularStd-Black';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
