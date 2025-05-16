@@ -3,7 +3,6 @@ import './App.css';
 import { Route, Routes } from "react-router-dom";
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import Slide from './Components/Banner';
 
 
 import Contacto from "./Pages/Contacto"
@@ -11,7 +10,7 @@ import Inicio from "./Pages/Inicio";
 import NuestrasObras from "./Pages/NuestrasObras"
 import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
-import UncontrolledExample from './Components/Carousel';
+import UncontrolledExample from './Components/BannerCarousel';
 
 
 function App() {

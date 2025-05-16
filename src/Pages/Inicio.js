@@ -1,8 +1,7 @@
 import "./Inicio.css"
-import Banner from "../Components/Banner"
 import { NavLink } from "react-router-dom";
 import logo from "../Components/images/logo.png"
-import UncontrolledExample from "../Components/Carousel";
+import BannerCarousel from "../Components/BannerCarousel";
 
 import img8 from '../Components/images/casas/8.jpg'
 import img9 from '../Components/images/casas/9.jpg'
@@ -28,7 +27,7 @@ const Inicio = () => {
 
     return (
         <div className="col-10 main">
-            <UncontrolledExample/>
+            <BannerCarousel/>
             <div className="presupuesto">
                 <p>¿Necesitas un presupuesto?</p>
                 <NavLink to="/contacto" className="contacta-nosotros">Contacta con nosotros</NavLink>
@@ -43,7 +42,7 @@ const Inicio = () => {
                 <div className="col-4 logo-icone">
                     <img src={logo} className="img-logo-icone"/>
                 </div>
-                <NavLink to="/quienes-somos" className="col-2 boton-nosotros">Saber Más</NavLink>
+                <NavLink to="/quienes-somos" className="col-2 boton">Saber Más</NavLink>
             </div>
 
             <div className="row contenido">
@@ -57,15 +56,14 @@ const Inicio = () => {
 
             <div className="row contenido">
                 <h2>Ultimas Obras</h2>
-                {ultimasObras.map(obra => (
-                    <div className="container-ult-obras">
-                        <div className="container-item">
+                <div className="container-obras">
+                    {ultimasObras.map(obra => (
+                        <div className="container-ult-obras">
                             <img src={obra.obra} className="img-ultimas-obras" />
                             <p>{obra.descripcion}</p>
                         </div>
-                    </div>
-                ))}
-            
+                    ))}
+                </div>
             </div>
         </div>
     )

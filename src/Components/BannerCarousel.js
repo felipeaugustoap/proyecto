@@ -5,9 +5,9 @@ import img1 from './images/casas/1.jpg'
 import img2 from './images/casas/2.jpg'
 import img3 from './images/casas/3.jpg'
 
-function UncontrolledExample() {
+function BannerCarousel() {
   return (
-    <Carousel className='banner'>
+    <Carousel className=''>
       <Carousel.Item>
         <img src={img1} class="img-banner" alt="..."/>
       </Carousel.Item>
@@ -21,4 +21,4 @@ function UncontrolledExample() {
   );
 }
 
-export default UncontrolledExample;
+export default BannerCarousel;

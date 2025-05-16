@@ -1,0 +1,62 @@
+:root{
+    --color1: #112B2E;
+    --color2: #A3775E;
+    --color3: #C9A489;
+    --color4: #D7B89B;
+    --color5: #E8CEAF;
+    --color6: #FFFBFA;
+}
+
+
+.fundo{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.titulo{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.rowIcone{
+    background-color: var(--color5);
+    padding-top: 15px;
+}
+
+.parrafo{
+    display: flex;
+    padding: 15px;
+    width: 50%;
+}
+
+.oficina{
+    display: flex;
+    background-image: url("../Components/images/escritorio.jpg");
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mapa{
+    display: flex;
+    background-image: url("../Components/images/espana.png");
+    width: 400px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.icone{
+    width: 50px;
+    height: 50px;
+}
