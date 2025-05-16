@@ -8,13 +8,64 @@
 }
 
 
+
+@font-face {
+  font-family: 'CircularStd';
+  src: local('CircularStd'), url(./Fuentes/CircularStd-Book.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    font-weight: 500;
+    src: local('CircularStd'), url(./Fuentes/CircularStd-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    font-weight: 800;
+    src: local('CircularStd'), url(./Fuentes/CircularStd-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    font-weight: 900;
+    src: local('CircularStd'), url(./Fuentes/CircularStd-Black.otf) format('opentype');
+}
+
+/*--------------------------------------------*/
+
+@font-face {
+  font-family: 'TitilliumWeb';
+  src: local('TitilliumWeb'), url(./Fuentes/TitilliumWeb-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    font-weight: 500;
+    src: local('TitilliumWeb'), url(./Fuentes/TitilliumWeb-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    font-weight: 800;
+    src: local('TitilliumWeb'), url(./Fuentes/TitilliumWeb-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'TitilliumWeb';
+    font-weight: 500;
+    src: local('TitilliumWeb'), url(./Fuentes/TitilliumWeb-Black.ttf) format('truetype');
+}
+
+
 *{
   margin: 0;
   padding: 0;
+  font-family: "CircularStd";
 }
-
+ 
 body{
-  background-color: gray;
+  background-color: var(--color5);
   height: 100%;
 }
 
@@ -22,4 +73,5 @@ body{
 
 .container-fluid{
   --bs-gutter-x:0;
+  max-width: 1500px;
 }
