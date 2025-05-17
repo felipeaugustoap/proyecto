@@ -17,12 +17,12 @@ const Header = () => {
                 <div className="container-logo">
                     <NavLink to="/"><img className="logo" src={logo} /></NavLink>
                 </div>
-                <div class="container-contacto">
+                <div className="container-contacto">
                     <NavLink to="/contacto" className={`${style.contactaNosotros}`}>¿Hablamos?</NavLink>
                 </div>
         </header>
             
-        <div class={`${style.menuNav}`}>
+        <div className={`${style.menuNav}`}>
             <nav className={`${style.navMenu}`}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/quienes-somos">Quienes Somos</NavLink>

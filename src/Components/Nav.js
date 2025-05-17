@@ -6,31 +6,31 @@ const NavBurguer = () => {
     
 
     return (
-        <nav class="navbar navbar-expand-lg d-flex">
-            <div class="container-fluid menu-topo">
+        <nav className="navbar navbar-expand-lg d-flex">
+            <div className="container-fluid menu-topo">
             
-                <button class="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
 
                 </button>
                     
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg">
-                        <li class="nav-item">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav me-auto mb-2 mb-lg">
+                        <li className="nav-item">
                             <NavLink to="/">Home</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/quienes-somos">Quienes Somos</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/nuestras-obras">Nuestras Obras</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/servicios">Servicios</NavLink>
                         </li>
-                        <li class="nav-item">
+                        <li className="nav-item">
                             <NavLink to="/contacto">Contacto</NavLink>
                         </li>
                     </ul>
