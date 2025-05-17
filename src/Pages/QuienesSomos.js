@@ -4,7 +4,7 @@ import mapaEspaña from "../Components/images/espana.png"
 
 import iconeTrabajador from "../Components/icons/construction.png"
 import iconeExperiencia from "../Components/icons/calendar.png"
-import iconeCalidad from "../Components/icons/validity_7180143.png"
+import iconeCalidad from "../Components/icons/calidad.png"
 import iconePuntualidad from "../Components/icons/time_12170554.png"
 
 

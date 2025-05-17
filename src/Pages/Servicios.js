@@ -6,12 +6,10 @@ import manteniemento from "../Components/images/manteniemento.jpg"
 
 
 
-
-
 const Servicios = () => {
     const servicios = [
         {
-            titulo: "Constuccion",
+            titulo: "Construcción",
             subtitulo:"Diseñamos y construimos tu casa a tu medida",
             descripcion: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, quo nisi. Eveniet nam libero ex illo, architecto optio cumque hic? Deleniti, explicabo doloribus quae laudantium quis laboriosam maxime possimus rem!",
             image: contruccion
