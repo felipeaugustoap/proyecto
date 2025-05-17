@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import logo from "../Components/images/logo.png"
 import BannerCarousel from "../Components/BannerCarousel";
 
-import img8 from '../Components/images/casas/8.jpg'
-import img9 from '../Components/images/casas/9.jpg'
-import img10 from '../Components/images/casas/10.jpg'
+import img8 from '../Components/images/casas/11.jpg'
+import img9 from '../Components/images/casas/12.jpg'
+import img10 from '../Components/images/casas/13.jpg'
 
 const Inicio = () => {
     const ultimasObras = [

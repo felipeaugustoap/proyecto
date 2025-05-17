@@ -12,20 +12,15 @@
     height: 80px;
 }
 
-.navbar{
-    background-color: var(--color1);
-}
-
-
 
 .active{
     color: var(--color2);
 }
 
 
-.slide-img{
+/* .slide-img{
     width: 900px;
-}
+} */
 
 .link{
     color: var(--color6);

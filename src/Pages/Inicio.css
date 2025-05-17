@@ -88,9 +88,11 @@ div .contenido{
 .container-obras{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .container-ult-obras{
