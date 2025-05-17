@@ -21,6 +21,7 @@
     text-align: center;
     font-family: "CircularStd";
     font-weight: 800;
+    margin-top: 30px;
 }
 
 .row{
@@ -41,30 +42,82 @@
     align-items: center;
 }
 
+.containerParrafo{
+    width: 60%;
+}
+
+.containerOficina{
+    width: 35%;
+    margin: auto 0;
+}
 .parrafo{
     display: flex;
     padding: 15px;
 }
 
-.oficina{
+
+.imageOficina{
     display: flex;
-    background-image: url("../Components/images/escritorio.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
-.mapa{
-    display: flex;
-    background-image: url("../Components/images/espana.png");
-    width: 400px;
-    height: 310px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 60px;
-    margin-top: 20px;
-}
+
 
 .icone{
     width: 50px;
     height: 50px;
+}
+
+
+
+.mapa{
+    display: flex;
+    background-image: url("../Components/images/espana.png");
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+.containerMapa{
+    width: 40%;
+    height: auto;
+}
+
+.containerActuacion{
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+@media (max-width: 765px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+   .containerParrafo{
+    width: 100%;
+    }
+
+    .containerOficina{
+        width: 100%;
+        margin: auto 0;
+    }
+    .containerMapa{
+    width: 80%;
+    height: auto;
+    }
+
+    .containerActuacion{
+        width: 100%;
+        height: auto;
+    }
 }
