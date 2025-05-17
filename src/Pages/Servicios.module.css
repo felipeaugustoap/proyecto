@@ -9,4 +9,37 @@
 
 .containerPrincipal{
     background-color: var(--color6);
+    margin-bottom: 0;
+}
+
+.containerServicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.containerText{
+    width: 60%;
+}
+
+.containerText h2{
+    text-align: center;
+    color: var(--color1);
+}
+
+.containerText h3{
+    font-weight: normal;
+    font-size: 20px;
+    padding: 10px 0;
+    color: var(--color2);
+}
+
+.containerImage{
+    width: 30%;
+}
+
+.containerImage img{
+    width: 100%;
+    height: auto;
 }
