@@ -8,8 +8,8 @@
 }
 
 .leaflet-container{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 400px;
 }
 
 .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {

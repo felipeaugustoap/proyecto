@@ -6,7 +6,7 @@ import './Mapa.css'
 import marker from './icons/icone-gps.png';
 
 const Mapa = () => {
-    const position = [43.3709482, -8.4237369]
+    const position = [43.3708623, -8.4233850]
     
     const customIcon = new L.Icon({
         iconUrl: marker,

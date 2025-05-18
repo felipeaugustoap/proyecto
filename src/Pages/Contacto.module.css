@@ -15,12 +15,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 
+.contacto{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#telefono {
+    background-color: var(--color6);
+    color: #112B2E;
+}
+
 .containerMapa{
-    width: 100%;
+    width: 30%;
     height: 500px;
 }
 

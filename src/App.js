@@ -6,7 +6,7 @@ import Header from './Components/Header';
 
 
 import Contacto from "./Pages/Contacto"
-import Inicio from "./Pages/Inicio";
+import Home from "./Pages/Home"
 import NuestrasObras from "./Pages/NuestrasObras"
 import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
@@ -24,7 +24,7 @@ function App() {
         <main className="container-fluid">
           
           <Routes>
-              <Route path="/" element={<Inicio/> } />
+              <Route path="/" element={<Home/> } />
               <Route path="/quienes-somos" element={<QuienesSomos />} />
               <Route path="/nuestras-obras" element={<NuestrasObras/>} />
               <Route path="/servicios" element={<Servicios />} />

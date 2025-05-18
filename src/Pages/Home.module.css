@@ -16,7 +16,7 @@ p{
 }
 
 a{
-    background-color: #112B2E;
+    background-color: var(--color1);
     color: var(--color6);
     text-align: center;
     border-radius: 10px;
@@ -40,14 +40,14 @@ a{
     color: var(--color6);
 }
 
-.logo-icone{
+.logoIcone{
     height: 200px;
     margin: 0 auto;
     
 }
 
 
-.img-logo-icone{
+.imgLogoIcone{
     width: 70%;
     margin-top: 30px;
     margin-left: 30px;
@@ -61,7 +61,7 @@ a{
 
 
 
-.contacta-nosotros{
+.contactaNosotros{
     padding: 10px;
     width: 150px;
 }
@@ -85,7 +85,7 @@ div .contenido{
     height: 450px;
 }
 
-.container-obras{
+.containerObras{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ div .contenido{
     height: auto;
 }
 
-.container-ult-obras{
+.containerUltObras{
     display: flex;
     height: 400px;
     justify-content: center;
@@ -104,12 +104,12 @@ div .contenido{
 }
 
 
-.img-ultimas-obras{
+.imgUltimasObras{
     width: 300px;
     height: 55%;
 }
 
-.container-ult-obras p{
+.containerUltObras p{
     display: flex;
     flex-wrap: wrap;
     height: 30%;

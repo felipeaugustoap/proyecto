@@ -14,16 +14,18 @@ const Contacto = () => {
         <div className={`${style.containerPrincipal} row`}>
 
             <div className={`${style.containerDatos}`}>
-                <h2>Hablemos de tu casa</h2>
-                <h3>Telefono: 999 999 999</h3>
-                <p>
-                    Direccion:
-                    Calle Educacion, 5
-                    15011 A Coruña
-                    Galicia
-                </p>
+                <div className={`${style.contacto}`}>
+                    <h2>Hablemos de tu casa</h2>
+                    <address>
+                        <strong>Oficina Central</strong><br />
+                        Calle Educación, 6, 15011 A Coruña<br />
+                        España<br />
+                        Tel: <a href="tel:+34999999999" id="telefono" className={style.telefono}> Telefono: 999 999 999</a><br />
+                        E-mail: <a href="malito:modern.house.construccion@gmail.com" id="mail" className={style.mail}>📧modern.house.construccion@gmail.com</a>
+                    </address>
+                </div>
                 <div className={style.containerMapa}>
-                    <Mapa />
+                    <Mapa/>
                 </div>
             </div>
 
