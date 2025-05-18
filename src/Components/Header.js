@@ -2,7 +2,6 @@ import logo from "./images/logo_proyecto.jpg"
 import  style from "./Header.module.css"
 import { NavLink } from "react-router-dom";
 import "../App.css"
-import { useState } from "react";
 import NavBurguer from "./Nav";
 
 const Header = () => {

@@ -43,7 +43,7 @@ const FormularioContacto = () => {
         setBtnDesabilitado(!validacion)
     }, [name, email, phone, boxText])
 
-    return  <div>
+    return  <div className={`${style.containerPrincipal}`}>
             <form action="">
                 <div>
                     <input type="text" value={name} placeholder="Nombre" onChange={cambiarNombre}/>

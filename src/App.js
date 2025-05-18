@@ -10,7 +10,6 @@ import Inicio from "./Pages/Inicio";
 import NuestrasObras from "./Pages/NuestrasObras"
 import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
-import UncontrolledExample from './Components/BannerCarousel';
 
 
 function App() {
