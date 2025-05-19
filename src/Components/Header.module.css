@@ -28,14 +28,15 @@ header{
     justify-content: space-between;
 }
 
-a{
+
+.link{
     color: #fff;
     font-size: 20px;
     margin-left: 20px;
     text-decoration: none;
 }
 
-a:hover{
+.link:hover{
     color:  #9a6c48;
 }
 
@@ -43,6 +44,8 @@ a:hover{
     background-color: var(--color5);
     color: var(--color1);
     padding: 10px;
+    border-radius: 15px;
+
 }
 
 .menuNav{

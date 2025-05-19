@@ -17,17 +17,17 @@ const Header = () => {
                     <NavLink to="/"><img className="logo" src={logo} /></NavLink>
                 </div>
                 <div className="container-contacto">
-                    <NavLink to="/contacto" className={`${style.contactaNosotros}`}>¿Hablamos?</NavLink>
+                    <NavLink to="/contacto" className={`${style.contactaNosotros} ${style.link}`}>¿Hablamos?</NavLink>
                 </div>
         </header>
             
         <div className={`${style.menuNav}`}>
             <nav className={`${style.navMenu}`}>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/quienes-somos">Quienes Somos</NavLink>
-                <NavLink to="/nuestras-obras">Nuestras Obras</NavLink>
-                <NavLink to="/servicios">Servicios</NavLink>
-                <NavLink to="/contacto">Contacto</NavLink>
+                <NavLink className={style.link} to="/">Home</NavLink>
+                <NavLink className={style.link} to="/quienes-somos">Quienes Somos</NavLink>
+                <NavLink className={style.link} to="/nuestras-obras">Nuestras Obras</NavLink>
+                <NavLink className={style.link} to="/servicios">Servicios</NavLink>
+                <NavLink className={style.link} to="/contacto">Contacto</NavLink>
             </nav>
                 <div className={`${style.burguer}`}>
                 <NavBurguer />

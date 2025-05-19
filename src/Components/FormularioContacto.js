@@ -43,6 +43,14 @@ const FormularioContacto = () => {
         setBtnDesabilitado(!validacion)
     }, [name, email, phone, boxText])
 
+
+
+    const btnEnviar = () => {
+        console.log("formulario enviado")
+        
+    }
+
+
     return  <div className={`${style.containerPrincipal}`}>
             <form action="">
                 <div>
@@ -58,7 +66,7 @@ const FormularioContacto = () => {
                 <div>
                     <textarea rows="10" value={boxText} placeholder="Escriba su mensaje" onChange={cambiarBoxText}></textarea>
                 </div>
-                <button type="button" disabled={btnDesabilitado}>Enviar</button>
+                <button type="button" disabled={btnDesabilitado} onClick={btnEnviar}>Enviar</button>
             </form>
         </div>
 }

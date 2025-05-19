@@ -16,19 +16,33 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    padding-top: 20px;
     
 }
 
 .contacto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 60%;
 }
 
-#telefono {
+.contacto h2 {
+    font-size: 45px;
+}
+
+.telefono, .mail{
     background-color: var(--color6);
     color: #112B2E;
+    font-size: 16px;
+    text-decoration: none;
 }
+
+.telefono:hover, .mail:hover{
+    color: var(--color2);
+}
+
 
 .containerMapa{
     width: 30%;

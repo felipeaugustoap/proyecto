@@ -20,12 +20,12 @@ const Footer = () => {
                     </div>
                     <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
                         <li className="ms-3">
-                            <a className="text-body-secondary" href="#" aria-label="Instagram">
+                            <a className="text-body-secondary" href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
                                 <img className="icons" src={insta}/>
                             </a>
                         </li>
                         <li className="ms-3">
-                            <a className="text-body-secondary" href="#" aria-label="Facebook">
+                            <a className="text-body-secondary" href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
                                 <img className="icons" src={fb}/>
                             </a>
                         </li>

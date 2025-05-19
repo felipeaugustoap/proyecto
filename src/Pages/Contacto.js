@@ -15,7 +15,7 @@ const Contacto = () => {
 
             <div className={`${style.containerDatos}`}>
                 <div className={`${style.contacto}`}>
-                    <h2>Hablemos de tu casa</h2>
+                    <h2>¿Hablemos de tu casa?</h2>
                     <address>
                         <strong>Oficina Central</strong><br />
                         Calle Educación, 6, 15011 A Coruña<br />
