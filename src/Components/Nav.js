@@ -19,19 +19,19 @@ const NavBurguer = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg">
                         <li className="nav-item">
-                            <NavLink to="/">Home</NavLink>
+                            <NavLink to="/" className="link">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/quienes-somos">Quienes Somos</NavLink>
+                            <NavLink className="link" to="/quienes-somos">Quienes Somos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/nuestras-obras">Nuestras Obras</NavLink>
+                            <NavLink className="link" to="/nuestras-obras">Nuestras Obras</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/servicios">Servicios</NavLink>
+                            <NavLink className="link" to="/servicios">Servicios</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink to="/contacto">Contacto</NavLink>
+                            <NavLink className="link" to="/contacto">Contacto</NavLink>
                         </li>
                     </ul>
                 </div>

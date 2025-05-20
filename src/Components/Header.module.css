@@ -69,4 +69,15 @@ header{
     .burguer{
         display: none;
     }
+
+    .link{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    }
+
+    .link:hover{
+        color:  #9a6c48;
+    }
 }
