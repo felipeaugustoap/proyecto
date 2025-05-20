@@ -12,6 +12,7 @@ import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
 
 
+
 function App() {
   return (
 
@@ -33,9 +34,8 @@ function App() {
           
         </main> 
       </div>
-      {/* <Carousel/> */}
+
       <Footer/>
-    
     </>
   );
 }

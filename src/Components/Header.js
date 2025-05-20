@@ -13,7 +13,7 @@ const Header = () => {
 
         <>
         <header>
-            <div className={style.topo}>
+            <div className={`${style.topo} container`}>
                 <div className="container-logo">
                     <NavLink to="/"><img className="logo" src={logo} /></NavLink>
                 </div>

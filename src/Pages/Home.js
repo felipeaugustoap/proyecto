@@ -57,8 +57,8 @@ const Inicio = () => {
             <div className={`row ${style.contenido}`}>
                 <h2>Ultimas Obras</h2>
                 <div className={style.containerObras}>
-                    {ultimasObras.map(obra => (
-                        <div className={style.containerUltObras}>
+                    {ultimasObras.map((obra, indice) => (
+                        <div className={style.containerUltObras} key={indice}>
                             <img src={obra.obra} className={style.imgUltimasObras} />
                             <p>{obra.descripcion}</p>
                         </div>
