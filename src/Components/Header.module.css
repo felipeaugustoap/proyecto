@@ -21,11 +21,19 @@
 }
 
 header{
-    position: relative;
+    position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
 }
 
 
@@ -50,7 +58,9 @@ header{
 
 .menuNav{
     background-color: var(--color1);
-    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .navMenu{
@@ -70,14 +80,5 @@ header{
         display: none;
     }
 
-    .link{
-    color: #fff;
-    font-size: 20px;
-    margin-left: 20px;
-    text-decoration: none;
-    }
-
-    .link:hover{
-        color:  #9a6c48;
-    }
+    
 }

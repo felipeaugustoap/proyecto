@@ -8,7 +8,7 @@ import img3 from './images/casas/8.jpg'
 
 function BannerCarousel() {
   return (
-    <Carousel className=''>
+    <Carousel className={style.banner}>
       <Carousel.Item>
         <img src={img1} class={`${style.imgBanner}`} alt="..."/>
       </Carousel.Item>

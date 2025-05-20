@@ -6,7 +6,7 @@ const NavBurguer = () => {
     
 
     return (
-        <nav className="navbar navbar-expand-lg d-flex">
+        <nav className="navbar navbar-expand-lg d-flex topo-fijo">
             <div className="container-fluid menu-topo">
             
                 <button className="navbar-toggler icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
