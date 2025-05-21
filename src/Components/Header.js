@@ -15,7 +15,7 @@ const Header = () => {
         <header>
             <div className={`${style.topo} container`}>
                 <div className="container-logo">
-                    <NavLink to="/"><img className="logo" src={logo} /></NavLink>
+                    <NavLink to="/"><img className="logo" alt="logo Modern House" src={logo} /></NavLink>
                 </div>
                 <div className="container-contacto">
                     <NavLink to="/contacto" className={`${style.contactaNosotros} ${style.link}`}>¿Hablamos?</NavLink>

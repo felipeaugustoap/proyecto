@@ -9,6 +9,7 @@
 
 .containerPrincipal{
     background-color: var(--color6);
+    padding-top: 200px;
 }
 
 .containerDatos{
@@ -47,6 +48,7 @@
 .containerMapa{
     width: 30%;
     height: 500px;
+    z-index: 0;
 }
 
 
@@ -55,4 +57,20 @@
 .containerFormulario{
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 625px){
+    .containerDatos{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .containerPrincipal{
+        padding-top: 20px;
+    }
+
+    .containerMapa{
+        width: 80%;
+    }
+
 }

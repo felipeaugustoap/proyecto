@@ -13,7 +13,7 @@ const FormularioContacto = () => {
     const [boxText, setBoxText] = useState("")
     const [btnDesabilitado, setBtnDesabilitado] = useState(true)
     
-    const formData = { name, phone, email, boxText }
+    //const formData = { name, phone, email, boxText }
     const formRef = useRef()
 
 

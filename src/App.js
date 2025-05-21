@@ -12,7 +12,6 @@ import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
 
 
-
 function App() {
   return (
 
@@ -29,13 +28,13 @@ function App() {
               <Route path="/quienes-somos" element={<QuienesSomos />} />
               <Route path="/nuestras-obras" element={<NuestrasObras/>} />
               <Route path="/servicios" element={<Servicios />} />
-              <Route path="/contacto" element={<Contacto/>} />
+              <Route path="/contacto" element={<Contacto />} />
           </Routes>
           
         </main> 
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 }

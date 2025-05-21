@@ -29,14 +29,7 @@ const Contacto = () => {
                 </div>
             </div>
 
-
-
-
-
-
-
-
-            <div class={`${style.containerFormulario}`}>
+            <div className={`${style.containerFormulario}`}>
                 <FormularioContacto />
             </div>
        </div>

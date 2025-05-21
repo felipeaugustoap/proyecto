@@ -10,6 +10,7 @@
 
 .containerPrincipal{
     background-color: var(--color6);
+    padding-top: 200px;
 }
 
 .containerPrincipal h1{
@@ -35,4 +36,11 @@
     width: 100%;
     height: auto;
     margin: 5px;
+}
+
+@media(max-width: 619px){
+.containerPrincipal{
+    padding-top: 20px;
+}
+
 }

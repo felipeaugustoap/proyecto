@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding-top: 200px;
 }
 
 
@@ -120,4 +121,11 @@
         width: 100%;
         height: auto;
     }
+}
+
+@media(max-width: 619px){
+.fundo{
+    padding-top: 20px;
+}
+
 }

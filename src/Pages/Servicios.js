@@ -38,17 +38,17 @@ const Servicios = () => {
 
 
     return (
-        <div class="container">
+        <div className="container">
             <div className={`${style.containerPrincipal}`}>
-                {servicios.map(servicio => (
-                    <div className={style.containerServicios}>
+                {servicios.map((servicio, indice) => (
+                    <div className={style.containerServicios} key={indice}>
                         <div className={style.containerText}>
                             <h2>{servicio.titulo}</h2>
                             <h3>{servicio.subtitulo}</h3>
                             <p>{servicio.descripcion}</p>
                         </div>
                         <div className={style.containerImage}>
-                            <img src={servicio.image}/>
+                            <img src={servicio.image} alt="Foto Servicio"/>
                         </div>
                     </div>
 

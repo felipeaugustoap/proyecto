@@ -25,11 +25,10 @@
 }
 
 .topo-fijo{
-    position: fixed;
-    margin-top: 100px;
     display: flex;
     justify-content: end;
     background-color:var(--color1);
+    border: none;
 }
 
 .navbar-nav{
