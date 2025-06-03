@@ -6,20 +6,17 @@ import img1 from './images/casas/6.jpg'
 import img2 from './images/casas/7.jpg'
 import img3 from './images/casas/8.jpg'
 
-function BannerCarousel(props) {
+function BannerCarouselItem ({images}) {
+
   return (
     <Carousel className={style.banner}>
-      <Carousel.Item>
-        <img src={img1} className={`${style.imgBanner}`} alt="..."/>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img2} className={`${style.imgBanner}`} alt="..."/>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img src={img3} className={`${style.imgBanner}`} alt="..."/>
-      </Carousel.Item>
+      {images.map((src, index) => {
+        <Carousel.Item key={index}>
+          <img src={src} className={`${style.imgBanner}`} alt="..."/>
+        </Carousel.Item>
+      })}
     </Carousel>
   );
 }
 
-export default BannerCarousel;
+export default BannerCarouselItem;

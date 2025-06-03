@@ -2,10 +2,12 @@
 
 
 
-const CarouselItem = () => {
+const CarouselItem = (props) => {
     
 
-    return <img />
+    return <>
+    {props.children}
+    </>
 }
 
 export default CarouselItem
