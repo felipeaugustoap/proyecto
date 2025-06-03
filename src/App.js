@@ -10,6 +10,7 @@ import Home from "./Pages/Home"
 import NuestrasObras from "./Pages/NuestrasObras"
 import QuienesSomos from "./Pages/QuienesSomos"
 import Servicios from "./Pages/Servicios"
+import BannerCookie from './Components/BannerCookie';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         </main> 
       </div>
       <Footer />
+      <BannerCookie/>
     </>
   );
 }
