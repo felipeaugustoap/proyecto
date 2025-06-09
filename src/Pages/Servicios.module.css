@@ -10,6 +10,7 @@
 .containerPrincipal{
     background-color: var(--color6);
     margin-bottom: 0;
+    padding-top: 200px;
 }
 
 .containerServicios{

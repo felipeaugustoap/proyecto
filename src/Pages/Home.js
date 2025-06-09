@@ -6,11 +6,6 @@ import BannerCarousel from "../Components/BannerCarousel";
 import img8 from '../Components/images/casas/11.jpg'
 import img9 from '../Components/images/casas/12.jpg'
 import img10 from '../Components/images/casas/13.jpg'
-import BannerCarouselItem from "../Components/Carousel/BannerCarousel copy";
-
-import img1 from '../Components/images/casas/6.jpg'
-import img2 from '../Components/images/casas/7.jpg'
-import img3 from '../Components/images/casas/8.jpg'
 
 const Inicio = () => {
     const ultimasObras = [
@@ -29,12 +24,9 @@ const Inicio = () => {
 
     ]
 
-    const imagenes =[img1, img2, img3]
-
     return (
         <div className={`col-10 ${style.main}`}>
             <BannerCarousel />
-            <BannerCarouselItem images={imagenes}/>
             <div className={style.presupuesto}>
                 <p>¿Necesitas un presupuesto?</p>
                 <NavLink to="/contacto" className={style.contactaNosotros}>Contacta con nosotros</NavLink>

@@ -7,42 +7,30 @@ import casa10 from '../Components/images/casas/10.jpg'
 import casa11 from '../Components/images/casas/11.jpg'
 import casa12 from '../Components/images/casas/12.jpg'
 import casa13 from '../Components/images/casas/13.jpg'
+import ImageCarousel from '../Components/Carousel/ImageCarousel'
+
 
 const NuestrasObras = () => {
-    const obras = [    
-        {
-            titulo: "Casa 01",
-            image: casa6
-        },
-        {
-            titulo: "Casa 02",
-            image: casa7
-        },
-        {
-            titulo: "Casa 03",
-            image: casa8
-        },
-        {
-            titulo: "Casa 04",
-            image: casa9
-        },
-        {
-            titulo: "Casa 05",
-            image: casa10
-        },
-        {
-            titulo: "Casa 06",
-            image: casa11
-        },
-        {
-            titulo: "Casa 07",
-            image: casa12
-        },
-        {
-            titulo: "Casa 08",
-            image: casa13
-        }
-    ]
+    
+    
+    const obras = [
+  {
+    titulo: "Casa 01",
+    imagenes: [casa6, casa7]
+  },
+  {
+    titulo: "Casa 02",
+    imagenes: [casa8, casa9]
+  },
+  {
+    titulo: "Casa 03",
+    imagenes: [casa10, casa11]
+  },
+  {
+    titulo: "Casa 04",
+    imagenes: [casa12, casa13]
+  }
+];
 
 
     return (
@@ -52,10 +40,9 @@ const NuestrasObras = () => {
             <div className={`${style.containerObras} col-10`} key={Math.round(Math.random()*10000)}>
                 {obras.map((obra, indice) => (
                     <div className={style.casa} key={indice}>
-                        <img src={obra.image} className={style.imageCasa} />
+                        <ImageCarousel images={obra.imagenes} className={style.imageCasa} />
                     </div>
                 ))}
-
             </div>
         </div>
     )

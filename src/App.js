@@ -1,5 +1,6 @@
 import './App.css';
 
+
 import { Route, Routes } from "react-router-dom";
 import Footer from './Components/Footer';
 import Header from './Components/Header';
@@ -14,6 +15,8 @@ import BannerCookie from './Components/BannerCookie';
 
 
 function App() {
+
+
   return (
 
     <>
@@ -29,7 +32,8 @@ function App() {
           </Routes>
         </main> 
       </div>
-      <Footer />
+
+      <Footer/>
       <BannerCookie/>
     </>
   );

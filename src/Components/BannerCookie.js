@@ -3,6 +3,7 @@ import style from "./BannerCookie.module.css"
 
 
 
+
 const getCookie = (name) => {
     
     const value = `; ${document.cookie}`
@@ -20,11 +21,19 @@ const setCookie = (name, value, days = 30) => {
 
 }
 
+let abrirConfiguracionCookiesExternamente;
+
+export const abrirConfiguracionCookies = () => {
+    if (typeof abrirConfiguracionCookiesExternamente === 'function') {
+        abrirConfiguracionCookiesExternamente();
+    }
+};
+
 
 
 const BannerCookie = () => {
     
-    const [visible, setVisible] = useState(false)
+    const [mostrar, setMostrar] = useState(false)
     const [mostrarOpciones, setMostrarOpciones] = useState(false)
     const [preferencia, setPreferencia] = useState({
         necessary: true,
@@ -35,15 +44,26 @@ const BannerCookie = () => {
     useEffect(() => {
         const consentimiento = getCookie('cookieConsent')
         if (!consentimiento) {
-            setVisible(true)
+            setMostrar(true)
             document.body.overflow = "hidden"
         }
+
+        abrirConfiguracionCookiesExternamente = () => {
+            setMostrar(true);
+            setMostrarOpciones(true); // Mostrar directamente las opciones
+            document.body.style.overflow = "hidden";
+        };
+
+        return () => {
+            abrirConfiguracionCookiesExternamente = null;
+        };
+            
     },[])
 
 
     const guardarPreferencias = (prefs) => {
         setCookie('cookieConsent', prefs)
-        setVisible(false)
+        setMostrar(false)
         document.body.overflow=''
     }
 
@@ -64,7 +84,7 @@ const BannerCookie = () => {
         setPreferencia({ ...preferencia, [name]: checked });
     };
 
-    if (!visible) return null;
+    if (!mostrar) return null;
 
     return (
         <div className={style.cookieOverlay}>
