@@ -2,6 +2,7 @@
   "name": "proyecto",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://felipeaugustoap.github.io/proyecto",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -11,6 +12,7 @@
     "emailjs-com": "^3.2.0",
     "embla-carousel": "8.6.0",
     "embla-carousel-autoplay": "8.6.0",
+    "gh-pages": "^6.3.0",
     "leaflet": "^1.9.4",
     "react": "^19.0.0-rc.1",
     "react-bootstrap": "^2.10.10",
@@ -24,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@babel/runtime": "7.13.8"
