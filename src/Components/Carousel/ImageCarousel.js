@@ -28,8 +28,8 @@ const ImageCarousel = ({ images }) => {
           />
         ))}
       </div>
-      <button className="carousel-button prev" onClick={prev}><img src={arrowBack}/></button>
-      <button className="carousel-button next" onClick={next}><img src={arrowNext}/></button>
+      <button className="carousel-button prev" onClick={prev}><img src={arrowBack} alt='...'/></button>
+      <button className="carousel-button next" onClick={next}><img src={arrowNext} alt='...'/></button>
     </div>
   );
 };

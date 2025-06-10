@@ -24,7 +24,7 @@ function App() {
       <div > 
         <main className="container-fluid">      
           <Routes>
-              <Route path="/proyecto" element={<Home/> } />
+              <Route path="/" element={<Home/>} />
               <Route path="/quienes-somos" element={<QuienesSomos />} />
               <Route path="/nuestras-obras" element={<NuestrasObras/>} />
               <Route path="/servicios" element={<Servicios />} />

@@ -39,7 +39,7 @@ const Inicio = () => {
                     <p>Ut magnam cumque nostrum, at ea maxime cupiditate blanditiis perferendis, repudiandae, ex explicabo nulla nobis. Ut dolores vero quos praesentium eos, maiores hic modi minima repellendus in expedita tenetur repudiandae?</p>
                 </div>
                 <div className={`col-4 ${style.logoIcone}`}>
-                    <img src={logo} className={style.imgLogoIcone } />
+                    <img src={logo} className={style.imgLogoIcone } alt="..." />
                 </div>
                 <NavLink to="/quienes-somos" className={`col-2 ${style.boton}`}>Saber Más</NavLink>
             </div>
@@ -58,7 +58,7 @@ const Inicio = () => {
                 <div className={style.containerObras}>
                     {ultimasObras.map((obra, indice) => (
                         <div className={style.containerUltObras} key={indice}>
-                            <img src={obra.obra} className={style.imgUltimasObras} />
+                            <img src={obra.obra} className={style.imgUltimasObras} alt=".."/>
                             <p>{obra.descripcion}</p>
                         </div>
                     ))}
